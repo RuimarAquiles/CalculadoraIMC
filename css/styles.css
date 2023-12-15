@@ -1,0 +1,110 @@
+body {
+  background-image: url("https://guiadafarmacia.com.br/wp-content/uploads/2021/02/balanca-imc-702x459.jpg");
+  background-position:center center; /*Usa-se center center para alinhar nos dois eixos X e Y, caso queira alinhar a direita ou esquerda, usar right ou left*/
+  background-repeat: no-repeat; /*faz a imagem não se repetir*/
+  background-attachment:fixed; /*faz a imagem ficar parada/fixa no fundo da tela quando ocorre barra de rolagem*/
+  background-size: cover; /*aumenta a imagem para ocupar a tela toda*/
+  font-family: aladin;
+  margin: 0;
+  padding: 0;
+}
+.gradient-background {
+  height: 100vh; /* 100% da altura da tela */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align:center;
+  background-color: rgba(253, 152, 58, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+}
+label {
+  text-align: left;
+  padding-left: 4px;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  border-radius: 8px;
+  width: calc(100% - 16px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 0;
+  
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; 
+  font-family: aladin;
+}
+button:hover {
+  background-color: #3cf342;
+
+}
+
+#resultado-container {
+  margin-top: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  font-family: aladin;
+}
+
+.outer-container {
+    background: #4CAF50; /* Cor de fundo */
+    padding: 15px; /* Espaçamento interno */
+	border-radius: 10px; /* Valor do raio do arredondamento */
+    overflow: hidden; /* Garante que as bordas arredondadas se apliquem corretamente */
+}
+
+.social-icons {
+    color: white;
+	display: flex;
+    justify-content: space-around;
+    margin-top: 10px;;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 25px;
+    margin: 0 10px;;
+}
+
+.social-icons a:visited {
+    color: white;
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: rgba(255, 136, 25, 0.9); 
+}
+
+footer {
+    background: #4CAF50;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+	border-radius: 10px; 
+    overflow: hidden; 
+	
+}
+a:visited, a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(255, 136, 25, 0.9);
+	/*background-color: darkgrey;*/
+}
